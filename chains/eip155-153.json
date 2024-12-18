@@ -4,7 +4,8 @@
   "chain": "RBN",
   "chainId": 153,
   "networkId": 153,
-  "rpc": [],
+  "slip44": 1,
+  "rpc": ["https://governors.testnet.redbelly.network"],
   "faucets": [],
   "infoURL": "https://redbelly.network",
   "nativeCurrency": {
@@ -12,5 +13,12 @@
     "symbol": "RBNT",
     "decimals": 18
   },
-  "status": "incubating"
+  "explorers": [
+    {
+      "name": "Routescan",
+      "url": "https://redbelly.testnet.routescan.io",
+      "standard": "EIP3091"
+    }
+  ],
+  "status": "active"
 }
