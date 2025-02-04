@@ -6252,12 +6252,12 @@
   "faucets": [],
   "infoURL": "https://evrice.com"
 }, {
-  "name": "Rebus Mainnet",
+  "name": "Rebus Classic Mainnet",
   "chainId": 1011,
-  "shortName": "rebus",
+  "shortName": "rebusclassic",
   "networkId": 1011,
   "nativeCurrency": {
-    "name": "Rebus",
+    "name": "Rebus Classic",
     "symbol": "REBUS",
     "decimals": 18
   },
@@ -7409,16 +7409,16 @@
   "faucets": [],
   "infoURL": "https://www.alyxchain.com"
 }, {
-  "name": "Story Homer Testnet",
+  "name": "Story Aeneid Testnet",
   "chainId": 1315,
-  "shortName": "styhmt",
+  "shortName": "story-aeneid",
   "networkId": 1315,
   "nativeCurrency": {
     "name": "IP Token",
     "symbol": "IP",
     "decimals": 18
   },
-  "rpc": ["https://devnet.storyrpc.io."],
+  "rpc": ["https://aeneid.storyrpc.io"],
   "faucets": [],
   "infoURL": "https://story.foundation/"
 }, {
@@ -15248,6 +15248,19 @@
   "faucets": ["https://faucet.neonlink.io/"],
   "infoURL": "https://neonlink.io"
 }, {
+  "name": "Rebus Mainnet",
+  "chainId": 9696,
+  "shortName": "rebus",
+  "networkId": 9696,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://apievml2.rebuschain.com/l2rpc"],
+  "faucets": [],
+  "infoURL": "https://www.rebuschain.com"
+}, {
   "name": "Oort MainnetDev",
   "chainId": 9700,
   "shortName": "MainnetDev",
@@ -17496,6 +17509,19 @@
   "rpc": [],
   "faucets": [],
   "infoURL": "https://monad.xyz"
+}, {
+  "name": "XUSD ONE StableChain Mainnet",
+  "chainId": 20441,
+  "shortName": "xusd",
+  "networkId": 20441,
+  "nativeCurrency": {
+    "name": "XUSD ONE",
+    "symbol": "X1",
+    "decimals": 18
+  },
+  "rpc": ["https://xusd.live"],
+  "faucets": [],
+  "infoURL": "https://xusd.co"
 }, {
   "name": "Callisto Testnet",
   "chainId": 20729,
@@ -22632,7 +22658,7 @@
   "faucets": [],
   "infoURL": "https://eclatscan.com"
 }, {
-  "name": "Taiko Mainnet",
+  "name": "Taiko Alethia",
   "chainId": 167000,
   "shortName": "tko-mainnet",
   "networkId": 167000,
@@ -22710,7 +22736,7 @@
   "faucets": [],
   "infoURL": "https://taiko.xyz"
 }, {
-  "name": "Taiko Hekla L2",
+  "name": "Taiko Hekla",
   "chainId": 167009,
   "shortName": "tko-hekla",
   "networkId": 167009,
